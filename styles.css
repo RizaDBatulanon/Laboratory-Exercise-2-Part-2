@@ -155,16 +155,16 @@ table.withStyle th {
     border-left: 1px solid #bbb;
     border-right: 1px solid #bbb;
 }
-#datatable-container table thead .sort_asc{
+#datatable-container table thead .th:th-child(1){
     background-image: url(sort_asc.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center right;
     cursor: pointer;
 }
-#datatable-container table thead .no_sort{
+#datatable-container table thead .th{
     background-image: url(sort_both.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center right;
     cursor: pointer;
 }
 #datatable-container caption{
